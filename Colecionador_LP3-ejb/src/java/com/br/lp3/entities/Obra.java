@@ -132,7 +132,9 @@ public class Obra implements Serializable {
 
     @Override
     public String toString() {
-        return "com.br.lp3.entities.Obra[ idObra=" + idObra + " ]";
+        return "Obra{" + "idObra=" + idObra + ", nomeObra=" + nomeObra + ", autorCollection=" + autorCollection + ", emprestimoCollection=" + emprestimoCollection + ", idAutor=" + idAutor + '}';
     }
+
+   
     
 }

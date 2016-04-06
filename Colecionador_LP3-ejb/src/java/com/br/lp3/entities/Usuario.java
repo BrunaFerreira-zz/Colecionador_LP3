@@ -108,7 +108,9 @@ public class Usuario implements Serializable {
 
     @Override
     public String toString() {
-        return "com.br.lp3.entities.Usuario[ idUsuario=" + idUsuario + " ]";
+        return "Usuario{" + "idUsuario=" + idUsuario + ", nomeUsuario=" + nomeUsuario + ", infousuarioCollection=" + infousuarioCollection + '}';
     }
+
+    
     
 }

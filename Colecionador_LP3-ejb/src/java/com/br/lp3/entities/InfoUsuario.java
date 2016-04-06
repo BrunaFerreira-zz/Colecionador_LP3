@@ -151,7 +151,9 @@ public class InfoUsuario implements Serializable {
 
     @Override
     public String toString() {
-        return "com.br.lp3.entities.Infousuario[ idInfousuario=" + idInfousuario + " ]";
+        return "InfoUsuario{" + "idInfousuario=" + idInfousuario + ", nomeCompleto=" + nomeCompleto + ", acessoUsuario=" + acessoUsuario + ", senha=" + senha + ", emprestimoCollection=" + emprestimoCollection + ", idUsuario=" + idUsuario + '}';
     }
+
+    
     
 }

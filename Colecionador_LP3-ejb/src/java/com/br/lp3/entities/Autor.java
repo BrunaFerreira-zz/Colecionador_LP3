@@ -121,7 +121,8 @@ public class Autor implements Serializable {
 
     @Override
     public String toString() {
-        return "com.br.lp3.entities.Autor[ idAutor=" + idAutor + " ]";
+        return "Autor{" + "idAutor=" + idAutor + ", nomeAutor=" + nomeAutor + ", idObra=" + idObra + ", obraCollection=" + obraCollection + '}';
     }
-    
+
+   
 }

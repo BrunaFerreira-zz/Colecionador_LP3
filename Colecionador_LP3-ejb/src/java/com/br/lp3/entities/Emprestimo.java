@@ -132,7 +132,8 @@ public class Emprestimo implements Serializable {
 
     @Override
     public String toString() {
-        return "com.br.lp3.entities.Emprestimo[ idEmprestimo=" + idEmprestimo + " ]";
+        return "Emprestimo{" + "idEmprestimo=" + idEmprestimo + ", dataEmprestimo=" + dataEmprestimo + ", idAutor=" + idAutor + ", idObra=" + idObra + ", idUsuario=" + idUsuario + '}';
     }
-    
+
+     
 }
